@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/SwitchDebounce.xst" -ofn "C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/SwitchDebounce.syr" 

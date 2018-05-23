@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat May 19 13:02:41 2018
+# Process ID: 11184
+# Log file: C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/planAhead_run_1/planAhead.log
+# Journal file: C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P123 [get_ports clk20MHz]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {rowKeypad[3]}]
+endgroup
+startgroup
+set_property package_pin P21 [get_ports {rowKeypad[2]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {rowKeypad[1]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {rowKeypad[0]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {columnKeypad[3]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {columnKeypad[2]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {columnKeypad[1]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {columnKeypad[0]}]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports resetBtn]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports startBtn]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports xGiveupBtn]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports oGiveupBtn]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports {rgbLed[2]}]
+endgroup
+startgroup
+set_property package_pin P142 [get_ports {rgbLed[1]}]
+endgroup
+startgroup
+set_property package_pin P140 [get_ports {rgbLed[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {gndLed[17]}]]
+startgroup
+set_property package_pin P38 [get_ports {gndLed[17]}]
+endgroup
+startgroup
+set_property package_pin P138 [get_ports {gndLed[17]}]
+endgroup
+startgroup
+set_property package_pin P134 [get_ports {gndLed[16]}]
+endgroup
+startgroup
+set_property package_pin P132 [get_ports {gndLed[15]}]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports {gndLed[14]}]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports {gndLed[13]}]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports {gndLed[12]}]
+endgroup
+startgroup
+set_property package_pin P143 [get_ports {gndLed[11]}]
+endgroup
+startgroup
+set_property package_pin P141 [get_ports {gndLed[10]}]
+endgroup
+startgroup
+set_property package_pin P139 [get_ports {gndLed[9]}]
+endgroup
+startgroup
+set_property package_pin P137 [get_ports {gndLed[8]}]
+endgroup
+startgroup
+set_property package_pin P133 [get_ports {gndLed[7]}]
+endgroup
+startgroup
+set_property package_pin P131 [get_ports {gndLed[6]}]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports {gndLed[5]}]
+endgroup
+startgroup
+set_property package_pin P121 [get_ports {gndLed[4]}]
+endgroup
+startgroup
+set_property package_pin P120 [get_ports {gndLed[3]}]
+endgroup
+startgroup
+set_property package_pin P119 [get_ports {gndLed[2]}]
+endgroup
+startgroup
+set_property package_pin P118 [get_ports {gndLed[1]}]
+endgroup
+startgroup
+set_property package_pin P117 [get_ports {gndLed[0]}]
+endgroup
+save_constraints

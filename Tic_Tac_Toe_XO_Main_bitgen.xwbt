@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Lab Advanced Digital\TIC_TAC_TOE_XO_ASSIGNMENT\Tic_Tac_Toe_XO_Main.ncd
+OUTFILE=D:\Lab Advanced Digital\TIC_TAC_TOE_XO_ASSIGNMENT\Tic_Tac_Toe_XO_Main.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=D:\Lab Advanced Digital\TIC_TAC_TOE_XO_ASSIGNMENT
+LICENSE=WebPack
+USER_INFO=__0_0_0

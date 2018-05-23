@@ -1,0 +1,170 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat May 19 13:02:41 2018
+# Process ID: 11184
+# Log file: C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/planAhead_run_1/planAhead.log
+# Journal file: C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/pa.fromHdl.tcl
+# create_project -name TIC_TAC_TOE_XO_ASSIGNMENT -dir "C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/planAhead_run_1" -part xc6slx9tqg144-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Tic_Tac_Toe_XO_Main.ucf" [current_fileset -constrset]
+Adding file 'C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/Tic_Tac_Toe_XO_Main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {VHDL/checkWin.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {VHDL/CheckKeypad.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {VHDL/Tic_Tac_Toe_XO_Main.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top Tic_Tac_Toe_XO_Main $srcset
+# add_files [list {Tic_Tac_Toe_XO_Main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/VHDL/checkWin.vhd" into library work
+Parsing VHDL file "C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/VHDL/CheckKeypad.vhd" into library work
+Parsing VHDL file "C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/VHDL/Tic_Tac_Toe_XO_Main.vhd" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/Tic_Tac_Toe_XO_Main.ucf]
+Finished Parsing UCF File [C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT/Tic_Tac_Toe_XO_Main.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 55db72c4
+open_rtl_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 518.781 ; gain = 125.008
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P123 [get_ports clk20MHz]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {rowKeypad[3]}]
+endgroup
+startgroup
+set_property package_pin P21 [get_ports {rowKeypad[2]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {rowKeypad[1]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {rowKeypad[0]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {columnKeypad[3]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {columnKeypad[2]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {columnKeypad[1]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {columnKeypad[0]}]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports resetBtn]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports startBtn]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports xGiveupBtn]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports oGiveupBtn]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports {rgbLed[2]}]
+endgroup
+startgroup
+set_property package_pin P142 [get_ports {rgbLed[1]}]
+endgroup
+startgroup
+set_property package_pin P140 [get_ports {rgbLed[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {gndLed[17]}]]
+startgroup
+set_property package_pin P38 [get_ports {gndLed[17]}]
+endgroup
+startgroup
+set_property package_pin P138 [get_ports {gndLed[17]}]
+endgroup
+startgroup
+set_property package_pin P134 [get_ports {gndLed[16]}]
+endgroup
+startgroup
+set_property package_pin P132 [get_ports {gndLed[15]}]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports {gndLed[14]}]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports {gndLed[13]}]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports {gndLed[12]}]
+endgroup
+startgroup
+set_property package_pin P143 [get_ports {gndLed[11]}]
+endgroup
+startgroup
+set_property package_pin P141 [get_ports {gndLed[10]}]
+endgroup
+startgroup
+set_property package_pin P139 [get_ports {gndLed[9]}]
+endgroup
+startgroup
+set_property package_pin P137 [get_ports {gndLed[8]}]
+endgroup
+startgroup
+set_property package_pin P133 [get_ports {gndLed[7]}]
+endgroup
+startgroup
+set_property package_pin P131 [get_ports {gndLed[6]}]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports {gndLed[5]}]
+endgroup
+startgroup
+set_property package_pin P121 [get_ports {gndLed[4]}]
+endgroup
+startgroup
+set_property package_pin P120 [get_ports {gndLed[3]}]
+endgroup
+startgroup
+set_property package_pin P119 [get_ports {gndLed[2]}]
+endgroup
+startgroup
+set_property package_pin P118 [get_ports {gndLed[1]}]
+endgroup
+startgroup
+set_property package_pin P117 [get_ports {gndLed[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Data/TIC_TAC_TOE_XO_ASSIGNMENT\planAhead_pid11184.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat May 19 13:14:43 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

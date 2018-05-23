@@ -1,0 +1,42 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun May 20 19:39:44 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "gndLed<0>" LOCATE = SITE "P117" LEVEL 1;
+COMP "gndLed<1>" LOCATE = SITE "P118" LEVEL 1;
+COMP "gndLed<2>" LOCATE = SITE "P119" LEVEL 1;
+COMP "gndLed<3>" LOCATE = SITE "P120" LEVEL 1;
+COMP "gndLed<4>" LOCATE = SITE "P121" LEVEL 1;
+COMP "gndLed<5>" LOCATE = SITE "P126" LEVEL 1;
+COMP "gndLed<6>" LOCATE = SITE "P131" LEVEL 1;
+COMP "gndLed<7>" LOCATE = SITE "P133" LEVEL 1;
+COMP "gndLed<8>" LOCATE = SITE "P137" LEVEL 1;
+COMP "gndLed<9>" LOCATE = SITE "P139" LEVEL 1;
+COMP "oGiveupBtn" LOCATE = SITE "P15" LEVEL 1;
+COMP "rgbLed<0>" LOCATE = SITE "P140" LEVEL 1;
+COMP "rgbLed<1>" LOCATE = SITE "P142" LEVEL 1;
+COMP "rgbLed<2>" LOCATE = SITE "P1" LEVEL 1;
+COMP "rowKeypad<0>" LOCATE = SITE "P14" LEVEL 1;
+COMP "rowKeypad<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "rowKeypad<2>" LOCATE = SITE "P21" LEVEL 1;
+COMP "rowKeypad<3>" LOCATE = SITE "P23" LEVEL 1;
+COMP "gndLed<10>" LOCATE = SITE "P141" LEVEL 1;
+COMP "gndLed<11>" LOCATE = SITE "P143" LEVEL 1;
+COMP "gndLed<12>" LOCATE = SITE "P2" LEVEL 1;
+COMP "gndLed<13>" LOCATE = SITE "P124" LEVEL 1;
+COMP "gndLed<14>" LOCATE = SITE "P127" LEVEL 1;
+COMP "gndLed<15>" LOCATE = SITE "P132" LEVEL 1;
+COMP "gndLed<16>" LOCATE = SITE "P134" LEVEL 1;
+COMP "gndLed<17>" LOCATE = SITE "P138" LEVEL 1;
+COMP "clk20MHz" LOCATE = SITE "P123" LEVEL 1;
+COMP "columnKeypad<0>" LOCATE = SITE "P5" LEVEL 1;
+COMP "columnKeypad<1>" LOCATE = SITE "P7" LEVEL 1;
+COMP "columnKeypad<2>" LOCATE = SITE "P9" LEVEL 1;
+COMP "columnKeypad<3>" LOCATE = SITE "P11" LEVEL 1;
+COMP "Buzzer" LOCATE = SITE "P83" LEVEL 1;
+COMP "xGiveupBtn" LOCATE = SITE "P17" LEVEL 1;
+COMP "resetBtn" LOCATE = SITE "P24" LEVEL 1;
+COMP "startBtn" LOCATE = SITE "P22" LEVEL 1;
+SCHEMATIC END;
+

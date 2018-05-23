@@ -1,0 +1,5 @@
+vhdl work "VHDL/SwitchDebounce.vhd"
+vhdl work "VHDL/ClockDividerTo500ms.vhd"
+vhdl work "VHDL/checkWin.vhd"
+vhdl work "VHDL/CheckKeypad.vhd"
+vhdl work "VHDL/Tic_Tac_Toe_XO_Main.vhd"

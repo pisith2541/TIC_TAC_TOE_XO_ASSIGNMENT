@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Tic_Tac_Toe_XO_Main.twx Tic_Tac_Toe_XO_Main.ncd -o
+Tic_Tac_Toe_XO_Main.twr Tic_Tac_Toe_XO_Main.pcf -ucf Tic_Tac_Toe_XO_Main.ucf
+
+Design file:              Tic_Tac_Toe_XO_Main.ncd
+Physical constraint file: Tic_Tac_Toe_XO_Main.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk20MHz
+---------------+------------+------------+------------+------------+------------------+--------+
+               |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source         | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+---------------+------------+------------+------------+------------+------------------+--------+
+columnKeypad<0>|    4.564(R)|      SLOW  |   -0.765(R)|      FAST  |clk20MHz_BUFGP    |   0.000|
+columnKeypad<1>|    4.445(R)|      SLOW  |   -0.625(R)|      FAST  |clk20MHz_BUFGP    |   0.000|
+columnKeypad<2>|    4.189(R)|      SLOW  |   -0.483(R)|      SLOW  |clk20MHz_BUFGP    |   0.000|
+columnKeypad<3>|    4.436(R)|      SLOW  |   -0.637(R)|      FAST  |clk20MHz_BUFGP    |   0.000|
+oGiveupBtn     |    1.863(R)|      SLOW  |   -0.308(R)|      SLOW  |clk20MHz_BUFGP    |   0.000|
+resetBtn       |    2.309(R)|      SLOW  |   -0.722(R)|      SLOW  |clk20MHz_BUFGP    |   0.000|
+startBtn       |    2.516(R)|      SLOW  |   -0.525(R)|      SLOW  |clk20MHz_BUFGP    |   0.000|
+xGiveupBtn     |    1.198(R)|      SLOW  |    0.189(R)|      SLOW  |clk20MHz_BUFGP    |   0.000|
+---------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk20MHz to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Buzzer      |        10.157(R)|      SLOW  |         5.587(R)|      FAST  |clk20MHz_BUFGP    |   0.000|
+rgbLed<0>   |        10.890(R)|      SLOW  |         5.003(R)|      FAST  |clk20MHz_BUFGP    |   0.000|
+rgbLed<1>   |        10.723(R)|      SLOW  |         4.654(R)|      FAST  |clk20MHz_BUFGP    |   0.000|
+rgbLed<2>   |        10.767(R)|      SLOW  |         4.682(R)|      FAST  |clk20MHz_BUFGP    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk20MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk20MHz       |    7.056|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+columnKeypad<0>|Buzzer         |    9.167|
+columnKeypad<1>|Buzzer         |    9.187|
+columnKeypad<2>|Buzzer         |    9.180|
+columnKeypad<3>|Buzzer         |    8.897|
+---------------+---------------+---------+
+
+
+Analysis completed Sun May 20 19:40:39 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 238 MB
+
+
+
